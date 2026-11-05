@@ -6,7 +6,7 @@ Il reprend les 30 User Stories (`US-001` → `US-030`) réparties en 7 épiques.
 ## Lancer le projet
 
 ```bash
-cd docs/feature-tree
+cd feature-tree
 bun install
 bun run dev
 ```
@@ -19,7 +19,7 @@ Puis ouvrir l'URL affichée par Vite (généralement `http://localhost:5173`).
 bun run build
 ```
 
-Le résultat est généré dans `docs/feature-tree/dist/`.
+Le résultat est généré dans `feature-tree/dist/`.
 
 ## Fonctionnalités de l'arbre
 
