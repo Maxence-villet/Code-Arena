@@ -1,0 +1,99 @@
+# ==============================================================
+# CodeArena — fichiers ignorés par Git
+# ==============================================================
+
+# ---------- Système d'exploitation ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ---------- Éditeurs ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---------- Secrets et configuration locale ----------
+# Ne jamais committer de secret : seul le modèle exemple est versionné.
+.env
+.env.*
+!.env.example
+
+# ---------- Node / Bun (feature-tree, frontend) ----------
+node_modules/
+.bun/
+.npm/
+.pnpm-store/
+.vite/
+dist/
+dist-ssr/
+.output/
+coverage/
+*.tsbuildinfo
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+.eslintcache
+.stylelintcache
+
+# ---------- Python (backend FastAPI) ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.eggs/
+*.egg-info/
+.installed.cfg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# ---------- Tests end-to-end ----------
+test-results/
+playwright-report/
+blob-report/
+cypress/videos/
+cypress/screenshots/
+
+# ---------- Bases de données et volumes Docker locaux ----------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.dump
+pgdata/
+postgres-data/
+docker/volumes/
+
+# ---------- Logs et fichiers temporaires ----------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
